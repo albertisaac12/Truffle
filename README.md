@@ -1,5 +1,3 @@
-# Truffle
-
 ```markdown
 # Truffle Commands Cheat Sheet
 
@@ -9,7 +7,7 @@ Truffle is a development framework for Ethereum that facilitates smart contract 
 
 To install Truffle globally, use npm:
 
-```
+```bash
 npm install -g truffle
 ```
 
@@ -17,17 +15,17 @@ npm install -g truffle
 
 - **Initiate a New Project:**
     
-    ```
+    ```bash
     truffle init
     
-    //This will make certain directors namely ./test, ./contracts, ./migrations, ./truffle-config.js
+    This will make certain directors namely ./test, ./contracts, ./migrations, ./truffle-config.js
     ```
     
     This command initializes a new Truffle project in the current directory.
     
 - **Compile Contracts:**
     
-    ```
+    ```bash
     truffle compile
     
     ```
@@ -36,7 +34,7 @@ npm install -g truffle
     
 - **Migrate Contracts to the Blockchain:**
     
-    ```
+    ```bash
     truffle migrate [--network <network-name>] [--reset]
     
     ```
@@ -45,7 +43,7 @@ npm install -g truffle
     
 - **Run Tests:**
     
-    ```
+    ```bash
     truffle test
     
     ```
@@ -54,7 +52,7 @@ npm install -g truffle
     
 - **Console:**
     
-    ```
+    ```bash
     truffle console [--network <network-name>]
     
     ```
@@ -63,7 +61,7 @@ npm install -g truffle
     
 - **Create a New Migration Script:**
     
-    ```
+    ```bash
     truffle create migration <migration-name>
     
     ```
@@ -72,7 +70,7 @@ npm install -g truffle
     
 - **Create a New Contract:**
     
-    ```
+    ```bash
     truffle create contract <contract-name>
     
     ```
@@ -81,7 +79,7 @@ npm install -g truffle
     
 - **Create a New Test:**
     
-    ```
+    ```bash
     truffle create test <test-name>
     
     ```
@@ -90,7 +88,7 @@ npm install -g truffle
     
 - **Run a Specific Migration:**
     
-    ```
+    ```bash
     truffle migrate --f <migration-number>
     
     ```
@@ -99,7 +97,7 @@ npm install -g truffle
     
 - **Network Management:**
     
-    ```
+    ```bash
     truffle networks
     
     ```
