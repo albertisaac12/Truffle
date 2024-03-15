@@ -9,7 +9,7 @@ Truffle is a development framework for Ethereum that facilitates smart contract 
 
 To install Truffle globally, use npm:
 
-```bash
+```
 npm install -g truffle
 ```
 
